@@ -14,6 +14,8 @@
 
 #first {
     height: 600px;
+    padding-top: 200px;
+    margin-bottom: 150px;
 }
 
 section {
@@ -62,12 +64,16 @@ section {
     border-radius: 3px;
 }
 
+.card-text {
+    min-height: 75px;
+}
+
 #third {
     height: 800px;
     background-position: left-center;
     background-repeat: no-repeat;
     background-image: url(/img/banner.jpg);
-    margin-right: 0;
+    padding-top: 200px;
 }
 
 #third > h1 {
@@ -97,3 +103,22 @@ footer {
     padding-top: 15px;
 }
 
+
+/* Checkout CSS */
+
+.container {
+    max-width: 900px;
+}
+
+.row {
+    max-width: 900px;
+    margin-left: 230px;
+}
+
+.first-row {
+    display: flex;
+}
+
+.needs-validation {
+    background-color: transparent;
+}
